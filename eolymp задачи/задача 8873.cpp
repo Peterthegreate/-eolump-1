@@ -3,11 +3,7 @@ using namespace std;
 int main()
 {
     int a;
-    
     cin >> a;
-    
-   
-    
     
     if (a < 10 and a > -10)
     {
@@ -18,7 +14,4 @@ int main()
     {
         cout << "no" << endl;
     }
-   
-    
-    
 }
