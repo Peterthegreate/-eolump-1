@@ -2,11 +2,7 @@
 using namespace std;
 int main()
 {
-    long long kapital;
-    long long banka;
-    long long age;
-    long long A;
-    long long podarok;
+    long long kapital, banka, age, A, podarok;
     kapital = 0;
     banka = 1;
     age = 1;
