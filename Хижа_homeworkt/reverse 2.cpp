@@ -4,26 +4,15 @@ using namespace std;
 int main ()
 {
     int N;
-    
-    cin >> N;
+    cin>>N;
     int A[N];                                // 123,-8,5
-    for(int i = 0; i < N; i++)
-    {
+    for(int i = 0; i < N; i++){
         cin >> A[i];
     }
-
     for(int i = 0; i<N/2; i++){
-        swap(A[i], A[N - i - 1]);
-        
+        swap(A[i], A[N - i - 1]); 
     }
-    
-    
-    
-    for(int i = 0; i < N; i++)
-    {
+    for(int i = 0; i < N; i++){
         cout << A[i] << " ";
     }
-    
-    
-
 }
