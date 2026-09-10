@@ -17,5 +17,4 @@ int main(){
     int a;
     cin>>a;
     f2(a, n);
-    //f(n);
 }
